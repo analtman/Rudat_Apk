@@ -19,18 +19,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:
         app:backgroundTint="@color/teal_700"
         app:layout_constraintTop_toTopOf="parent"
         app:title="RudatAPK_Test"
         app:titleTextColor="@color/purple_700"
         tools:layout_editor_absoluteX="32dp" />
 
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:drawablePadding="10dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="222dp" />
+
     <Button
         android:id="@+id/button_activity_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Push Me"
+        android:id = "@+id/button1"
+        android:onClick = "login"
+        android:text = "Login"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="134dp"
         tools:layout_editor_absoluteY="328dp"
